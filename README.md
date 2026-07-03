@@ -9,7 +9,6 @@ A robust, AI-powered semantic search engine that bridges natural language querie
 - Database: SQLite[cite: 3]
 
 ## Project Structure
-```text
 secure_semantic_search/
 ├── app/                  # Core application logic (Security, Engine, DB)
 ├── company_data.db       # Local SQLite database
