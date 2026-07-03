@@ -1,7 +1,12 @@
 import os
+from dotenv import load_dotenv
 from groq import Groq
 from fastapi import HTTPException
 
+# 1. Load the secret variables FIRST
+load_dotenv()
+
+# 2. Now the client can securely find the key
 client = Groq(api_key=os.environ.get("GROQ_API_KEY"))
 
 SYSTEM_PROMPT = """
