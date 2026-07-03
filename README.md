@@ -3,10 +3,10 @@
 A robust, AI-powered semantic search engine that bridges natural language queries with structured SQL data. Built with FastAPI and containerized with Docker, this service ensures secure, high-performance data retrieval.
 
 ## Tech Stack
-- Framework: FastAPI[cite: 1]
+- Framework: FastAPI
 - AI Engine: Groq Cloud
 - Orchestration: Docker & Docker Compose
-- Database: SQLite[cite: 3]
+- Database: SQLite
 
 ## Project Structure
 ```text
@@ -26,7 +26,7 @@ Docker Desktop installed and running.
 #### Installation
 1. Clone the repository:
 ```text
-git clone <your-repo-url>
+git clone https://github.com/karpagameenal-leo/Secure-Semantic-Search
 cd secure_semantic_search
 ```
 
